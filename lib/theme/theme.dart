@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 class appTheme {
-  static const Color primary = Color(0xFFEB1544);
-  static const Color secondary = Color(0xFFFFFF);
+  static const Color primary = Color(0xFF8E97FD);
+  static const Color secondary = Color(0xFFF2F3F7);
 
   static final ThemeData light = ThemeData(
     colorScheme: ColorScheme(
       brightness: Brightness.light,
-      primary: Color(0xFFEB1544), // your custom red-pink
+      primary: primary,
       onPrimary: Colors.white,
-      secondary: Color(0xFF03DAC6),
-      onSecondary: Colors.black,
+      secondary: secondary,
+      onSecondary: Color(0xFFA1A4B2),
       error: Colors.red, // required error color
       onError: Colors.white, // required onError color
       surface: Colors.grey[200]!, // required surface color
